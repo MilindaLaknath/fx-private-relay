@@ -1,7 +1,6 @@
 /* global browser */
 
 function showSignUpPanel() {
-  console.log("sign up panel");
   const signUpOrInPanel = document.querySelector(".sign-up-panel");
   document.body.classList.add("sign-up");
   return signUpOrInPanel.classList.remove("hidden");
