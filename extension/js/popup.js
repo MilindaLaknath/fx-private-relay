@@ -88,10 +88,6 @@ async function popup() {
   showRelayPanel();
 
   const { relayAddresses } = await getAllAliases();
-  // const footerButton = document.querySelector(".footer-button");
-  // const noAliases = (relayAddresses && relayAddresses.length === 0);
-  // const manageAliasesText = "Manage Aliases";
-  // footerButton.textContent = noAliases ? "View Dashboard" : manageAliasesText;
 
   const aliasListWrapper = document.querySelector("alias-list");
   const aliasListHeader = aliasListWrapper.querySelector("alias-list-header");
